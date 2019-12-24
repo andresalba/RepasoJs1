@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import HolaMundo from './components/Holamundo';
 import * as serviceWorker from './serviceWorker';
 

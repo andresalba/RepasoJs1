@@ -3,7 +3,7 @@ import React from 'react';
 const HolaMundo = () => {
 	const Hello = 'hola mundo';
 	const isTrue = false;
-	return{
+	return(
 		<div className="HolaMundo">
 			<h1>{Hello}</h1>
 			<h2>React Basico</h2>
@@ -11,7 +11,7 @@ const HolaMundo = () => {
 			{isTrue ? <h4>verdadero</h4> : <h5>falso</h5>}
 			{isTrue && <h4>verdadero nuevamente</h4>}
 		</div>
-	};
+	);
 };
 
 export default HolaMundo;
